@@ -1,5 +1,26 @@
 {
-  "users": [{ "id": 1, "name": "Myra" }],
+  "users": [
+    {
+      "id": "1",
+      "name": "Myra"
+    },
+    {
+      "id": "c584",
+      "name": "Morris Franey"
+    },
+    {
+      "id": "bb7f",
+      "name": "Elsie Grady"
+    },
+    {
+      "id": "4ef4",
+      "name": "Kate Schiller"
+    },
+    {
+      "id": "3bef",
+      "name": "Dr. Colin Huels Sr."
+    }
+  ],
   "albums": [],
   "photos": []
 }
