@@ -14,14 +14,8 @@ function UsersList() {
     setIsLoadingUsers(true);
     dispatch(fetchUsers())
       .unwrap()
-      .then(() => {
-        console.log("SUCCESS");
-        setIsLoadingUsers(false);
-      })
-      .catch(() => {
-        console.log("FAIL");
-        setIsLoadingUsers(false);
-      });
+      .catch((err) => setLoadingUsersError(err))
+      .finally(() => setIsLoadingUsers(false));
   }, [dispatch]);
 
   const handleUserAdd = () => {
@@ -33,7 +27,7 @@ function UsersList() {
   }
 
   if (loadingUsersError) {
-    return <div>Error fetching data.</div>;
+    return <div>Error fetching data: {loadingUsersError.message}</div>;
   }
 
   const renderedUsers = data.map((user) => {
