@@ -21,6 +21,12 @@
       "name": "Dr. Colin Huels Sr."
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": "10",
+      "title": "Hiking Trip",
+      "userId": "1"
+    }
+  ],
   "photos": []
 }
