@@ -26,6 +26,11 @@
       "id": "10",
       "title": "Hiking Trip",
       "userId": "1"
+    },
+    {
+      "id": "87b1",
+      "userId": "1",
+      "title": "Licensed Steel Fish"
     }
   ],
   "photos": []
