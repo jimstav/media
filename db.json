@@ -33,5 +33,11 @@
       "title": "Licensed Steel Fish"
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "id": "b009",
+      "albumId": "10",
+      "url": "https://loremflickr.com/150/150/abstract?lock=79427"
+    }
+  ]
 }
